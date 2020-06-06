@@ -1,0 +1,36 @@
+body{
+
+}
+
+header{
+	background-color: teal;
+}
+
+header h1{
+	color: grey;
+	position: relative;
+	top: 0px;
+	left: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-family: Adelle, Garamond;
+	font-size: 50pt;
+	margin: 0px;
+	border-bottom: solid black;
+	border-spacing: solid red;
+	border-radius: 50px;
+	
+}
+
+header img{
+	width: 200px;
+	float: left
+}
+
+header h2{
+	align-self: center;
+}
+
+img{
+	border-radius: 50px;
+}
