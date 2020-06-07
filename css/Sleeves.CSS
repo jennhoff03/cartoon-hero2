@@ -13,32 +13,33 @@ header h1{
 	padding-bottom: 100px;
 	font-size: 50pt;
 	margin: 0px;
-	border-bottom: solid black;
-	border-spacing: solid red;
-	border-radius: 50px;
 	
 }
 
 header img{
-	width: 200px;
+	height: 230px;
 	float: left
 }
 
 main{
 	max-width: 900px;
+	margin: 10px;
+	padding: 10px;
 
 }
 
 main img{
 	max-width: 100%;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 10px 10px 0px;
 }
+
 
 body{
 	font-family: 'Noto Serif JP', serif;
 	font-style: normal;
 	font-size: 18px;
+	line-height: 30px;
 }
 
 h2{
@@ -49,9 +50,44 @@ h2{
 	text-align: center;
 }
 
+img.horizontal{
+	width: 800px;
+}
+
 img{
 	border-radius: 50px;
 }
+
+
+a{
+	color: grey;
+}
+a:hover{
+	color: black;
+	background-color: #ebdcfb;
+
+}
+
+footer{
+	background-color: black;
+	font-family: 'Bentham', serif;
+	text-align: center;
+	color: white;
+	margin-bottom: 50px;
+}
+
+footer a:hover{
+	background-color: #ebdcfb;
+
+}
+p.caption{
+	color: grey;
+	text-align: center;
+	margin-top: 0;
+}
+
+
+
 
 
 
