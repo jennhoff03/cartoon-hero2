@@ -1,19 +1,16 @@
-body{
-
-}
-
 header{
-	background-color: teal;
+	background-color: black;
+	font-family: 'Lobster', sans-serif;
 }
 
 header h1{
-	color: grey;
+	font-family: 'Lobster', serif;
+	color: white;
 	position: relative;
 	top: 0px;
 	left: 20px;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	font-family: Adelle, Garamond;
 	font-size: 50pt;
 	margin: 0px;
 	border-bottom: solid black;
@@ -27,10 +24,35 @@ header img{
 	float: left
 }
 
-header h2{
-	align-self: center;
+main{
+	max-width: 900px;
+
+}
+
+main img{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+body{
+	font-family: 'Noto Serif JP', serif;
+	font-style: normal;
+	font-size: 18px;
+}
+
+h2{
+	font-family: 'Bentham', serif;
+	font-style: normal;
+	font-weight: 500
+	font-size: 100px;
+	text-align: center;
 }
 
 img{
 	border-radius: 50px;
 }
+
+
+
+
