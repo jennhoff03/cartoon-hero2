@@ -13,11 +13,11 @@ header h1{
 	padding-bottom: 100px;
 	font-size: 50pt;
 	margin: 0px;
-	
 }
 
 header img{
 	height: 230px;
+	width: 215px;
 	float: left
 }
 
@@ -25,15 +25,46 @@ main{
 	max-width: 900px;
 	margin: 10px;
 	padding: 10px;
-
 }
-
+main h2{
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
 main img{
-	max-width: 100%;
-	margin: 0 auto;
-	padding: 10px 10px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px auto 0px;
+	border-radius: 50px;
+    height: 800px;
 }
 
+img.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.horizontal{
+	width: 800px;
+	height: auto;
+}
+
+.times{
+	display: flex;
+	float: left;
+	flex-wrap: wrap;
+	width: 40%;
+	height: 40%;	
+}
+img.multiple{
+	width: 20%;
+	height: 20%;
+}
+
+img.multiplebigger{
+	width: 40%;
+	height: 40%;
+}
 
 body{
 	font-family: 'Noto Serif JP', serif;
@@ -50,18 +81,10 @@ h2{
 	text-align: center;
 }
 
-img.horizontal{
-	width: 800px;
-}
-
-img{
-	border-radius: 50px;
-}
-
-
 a{
 	color: grey;
 }
+
 a:hover{
 	color: black;
 	background-color: #ebdcfb;
