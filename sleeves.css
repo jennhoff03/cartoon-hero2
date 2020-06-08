@@ -1,0 +1,122 @@
+header{
+	background-color: black;
+	font-family: 'Lobster', sans-serif;
+}
+
+header h1{
+	font-family: 'Lobster', serif;
+	color: white;
+	position: relative;
+	top: 0px;
+	left: 20px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-size: 50pt;
+	margin: 0px;
+}
+
+header img{
+	height: 230px;
+	width: 215px;
+	float: left
+}
+
+main{
+	max-width: 900px;
+	margin: 10px;
+	padding: 10px;
+}
+main h2{
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+main img{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px auto 0px;
+	border-radius: 50px;
+    height: 800px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.horizontal{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: auto;
+}
+
+.times{
+	display: flex;
+	float: left;
+	flex-wrap: wrap;
+	width: 40%;
+	height: 40%;	
+}
+img.multiple{
+	width: 30%;
+	height: 30%;
+}
+
+img.multiplebigger{
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+	height: 40%;
+}
+
+body{
+	font-family: 'Noto Serif JP', serif;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+h2{
+	font-family: 'Bentham', serif;
+	font-style: normal;
+	font-weight: 500
+	font-size: 100px;
+	text-align: center;
+}
+
+a{
+	color: grey;
+}
+
+a:hover{
+	color: black;
+	background-color: #ebdcfb;
+
+}
+
+footer{
+	background-color: black;
+	font-family: 'Bentham', serif;
+	text-align: center;
+	color: white;
+	margin-bottom: 50px;
+}
+
+footer a:hover{
+	background-color: #ebdcfb;
+
+}
+p.caption{
+	color: grey;
+	text-align: center;
+	margin-top: 0;
+}
+
+
+
+
+
+
+
